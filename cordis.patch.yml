@@ -1,0 +1,18 @@
+# dsh-session-porter bundle patch
+#
+# One row: the Host half owns the export/import HTTP endpoints, the Client half
+# (declared in package.json `dsh.client`) renders the two buttons above the
+# balance chip in the sidebar foot.
+#
+# All configuration lives in the plugin's own JSON file next to the sessions
+# directory (`<dsh home>/session-porter.json`) so the export folder can be changed
+# from the UI without editing this patch. The optional `exportDir` below only
+# seeds the very first value:
+#
+#   config:
+#     exportDir: "D:\\OneDrive\\DSH-Sessions"
+- insert:
+    - id: session-porter
+      name: dsh-session-porter
+      # config:
+      #   exportDir: ""

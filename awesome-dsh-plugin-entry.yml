@@ -1,0 +1,6 @@
+url: https://github.com/LZ-jun/dsh-session-porter
+name: LZ-jun/dsh-session-porter
+category: session
+description:
+  en: Exports the conversations you pick to a folder you choose (OneDrive works) and imports them back on another machine, with a per-session picker, an overwrite switch and a confirm dialog.
+  zh: 一键把挑中的对话导出到你指定的目录（OneDrive 也行），换台电脑再一键导回来；支持逐个会话挑选、覆盖开关和确认弹窗。
